@@ -2,7 +2,6 @@
 from numpy.random import choice
 import gzip
 import argparse
-from Bio import SeqIO
 
 def main(args):
     with gzip.open(args.fastq_R1) as f:
